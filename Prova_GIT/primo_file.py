@@ -36,7 +36,7 @@ def from_range_to_list(range_str):
     start = int(h_l[0])
     stop = int(h_l[1])
     for x in range(start,stop+1):
-        l.append(x
+        l.append(x)
     return l
 
 vlan_l = po_vlan_string.split(',')
