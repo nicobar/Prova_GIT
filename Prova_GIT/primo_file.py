@@ -14,6 +14,10 @@ po_vlan_string = '7,20,22,23,25-27,38,46-51,58,60,127,128,130,135,140,145,156,19
     
 def secondo_commit_in_master()):
     def
+
+def terzo_commit_in_master()):
+    def
+    
 def from_range_to_list(range_str):
     
     l = []
