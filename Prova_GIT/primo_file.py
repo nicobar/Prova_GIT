@@ -20,6 +20,9 @@ def terzo_commit_in_master()):
     
 def primo_commit_in_dev()):
     def
+
+def secondo_commit_in_dev()):
+    def
     
 def from_range_to_list(range_str):
     
