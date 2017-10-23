@@ -12,7 +12,8 @@ po_vlan_string = '7,20,22,23,25-27,38,46-51,58,60,127,128,130,135,140,145,156,19
 #     for obj in list_obj:
         
     
-
+def secondo_commit_in_master()):
+    def
 def from_range_to_list(range_str):
     
     l = []
@@ -21,7 +22,7 @@ def from_range_to_list(range_str):
     start = int(h_l[0])
     stop = int(h_l[1])
     for x in range(start,stop+1):
-        l.append(x)
+        l.append(x
     return l
 
 vlan_l = po_vlan_string.split(',')
