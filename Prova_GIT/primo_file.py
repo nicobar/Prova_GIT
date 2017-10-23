@@ -12,17 +12,21 @@ po_vlan_string = '7,20,22,23,25-27,38,46-51,58,60,127,128,130,135,140,145,156,19
 #     for obj in list_obj:
         
     
-def secondo_commit_in_master()):
-    def
+def secondo_commit_in_master(): #change
+    pass
 
-def terzo_commit_in_master()):
-    def
+def terzo_commit_in_master():
+    pass
     
-def primo_commit_in_dev()):
-    def
+def primo_commit_in_dev():
+    pass
 
-def secondo_commit_in_dev()):
-    def
+def secondo_commit_in_dev():
+    pass
+    
+def primo_commit_in_dev_dopo_merge():
+    pass
+
     
 def from_range_to_list(range_str):
     
