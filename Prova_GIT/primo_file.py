@@ -11,7 +11,8 @@ po_vlan_string = '7,20,22,23,25-27,38,46-51,58,60,127,128,130,135,140,145,156,19
 #     
 #     for obj in list_obj:
 # CIAO
-# uno master
+# uno master and uno pippo
+
 def secondo_commit_in_master(): #change
     pass
 
