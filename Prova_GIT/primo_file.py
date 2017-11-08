@@ -8,53 +8,63 @@ po_vlan_string = '7,20,22,23,25-27,38,46-51,58,60,127,128,130,135,140,145,156,19
 #     parse = c.CiscoConfParse(conf)
 #
 #     list_obj = parse.find_objects('vlan')
-#     
+#
 #     for obj in list_obj:
 # CIAO
 # uno master and uno pippo
 
-def secondo_commit_in_master(): #change
+
+def primo_commit_in_dev_081117():
     pass
+
+
+def secondo_commit_in_master():  # change
+    pass
+
 
 def terzo_commit_in_master():
     pass
-    
+
+
 def primo_commit_in_dev():
     pass
 
+
 def secondo_commit_in_dev():
     pass
-    
+
+
 def primo_commit_in_dev_dopo_merge():
     pass
 
-    
+
 def from_range_to_list(range_str):
-    
+
     l = []
-    
+
     h_l = range_str.split('-')
     start = int(h_l[0])
     stop = int(h_l[1])
-    for x in range(start,stop+1):
+    for x in range(start, stop + 1):
         l.append(x)
     return l
+
 
 vlan_l = po_vlan_string.split(',')
 vlan_set = set()
 
 
 for v in vlan_l:
-    
+
     if v.find('-') > 0:
         help_l = from_range_to_list(v)
         for elem in help_l:
             vlan_set.add(int(elem))
     else:
         vlan_set.add(int(v))
-        
+
 lst = list(vlan_set)
 lst.sort()
-print (lst)
+print(lst)
 for i in lst:
-    print (i)
+    print(i)
